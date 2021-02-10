@@ -1,0 +1,176 @@
+.header {
+  background: url(images/pexels-pixabay-315755.jpg) center no-repeat;
+  background-size: cover;
+  height: 150%;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  color: #81bd4a;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #2c2c28;
+  margin-top: 60px;
+  padding: 100px;
+  font-size: 20px;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.title .btn {
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: yellowgreen;
+  cursor: pointer;
+  outline: none;
+}
+
+#section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10%;
+}
+
+#section .list {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#section .list ul {
+  list-style-type: none;
+}
+
+.pra {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: 700;
+  background-color: #b6e28d;
+  padding: 20px;
+  margin-top: 2px;
+}
+
+.pra-about-us {
+  font-size: 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+}
+
+#section1 .contact {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Yusei Magic', sans-serif;
+  color: #2c2c28;
+  font-weight: 700;
+  background-color: #b6e28d;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+#footer {
+  background-color: #b6e28d;
+}
+
+#footer .prra {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+
+.icons {
+  font-size: 50px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #b6e28d;
+  padding: 20px;
+}
+
+.icons .icon-fb {
+  text-decoration: none;
+  color: #3b5998;
+}
+
+.icons .icon-tw {
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+.icons .icon-g {
+  text-decoration: none;
+  color: #ea4335;
+}
+
+.icons .icon-in {
+  text-decoration: none;
+  color: #e95950;
+}
+
+.icon-fb:hover {
+  cursor: pointer;
+}
+
+.icon-tw:hover {
+  cursor: pointer;
+}
+
+.icon-g:hover {
+  cursor: pointer;
+}
+
+.icon-in:hover {
+  cursor: pointer;
+}
+
+.ft {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
